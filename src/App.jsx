@@ -4,14 +4,12 @@ import Login from "./Pages/Login";
 
 export default function App() {
   return (
-   
-  
-  
-  <GymDashboard />
- 
-
-  
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/dashboard" element={<GymDashboard />} />
+      </Routes>
+    </BrowserRouter>
   );
-}                                           // ← closing brace was missing
-
+}
 
