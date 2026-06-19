@@ -1,2 +1,2 @@
-# calorie-tracking-application
-Application is designed to track the daily macros, micros and calories to keep the fitness goals strong
+# GymFindBookings
+Application is designed to book gym and trainer, used springboot Java 17 for backend and react.js for frontend
